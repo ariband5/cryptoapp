@@ -9,11 +9,11 @@ import 'antd/dist/antd.css';
 
 
 ReactDOM.render(
-    
+    <React.StrictMode>
         <Router>
             <Provider store={store}>
                 <App />
             </Provider>
-        </Router>,
-    
+        </Router>
+    </React.StrictMode>,
     document.getElementById('root'));
